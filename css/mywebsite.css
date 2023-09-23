@@ -1,3 +1,7 @@
+main {
+ background-image: url("https://images.unsplash.com/photo-1533891244820-1d2dbcf93f56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+}
+
 body {
  background-color: #35155D;
 }
@@ -40,6 +44,15 @@ h2 {
  font-size: 20px;
 }
 
+.dig1 {
+ color: lavender;
+}
+
+.dig2 {
+ color: lavenderblush;
+}
+
+
 img {
  display: block;
  margin-left: auto;
@@ -55,7 +68,7 @@ p {
 
 .brand {
  text-align: center;
- color: yellow;
+ color: #35155D;
  font-family: Yanone Kaffeesatz;
  font-size: 16px;  
 }
