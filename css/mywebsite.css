@@ -1,0 +1,94 @@
+body {
+ background-color: #35155D;
+}
+
+.active {
+ background-color: yellow;
+ color: #35155D;
+ padding: 5px 10px 10px;  
+}
+
+.abt-btn {
+ background-color: yellow;
+ color: #35155D;
+ padding: 5px 10px 10px;
+}
+
+.con-btn {
+ background-color: yellow;
+ color: #35155D;
+ padding: 5px 10px 10px;
+}
+
+.onl-btn {
+ background-color: yellow;
+ color: #35155D;
+ padding: 5px 10px 10px;
+}
+
+h1 {
+ text-align: center;
+ color: yellow;
+ font-family: Yanone Kaffeesatz;
+ font-size: 40px;
+}
+
+h2 {
+ text-align: center;
+ color: yellow;
+ font-family: Yanone Kaffeesatz;
+ font-size: 20px;
+}
+
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;   
+}
+
+p {
+ text-align: center;    
+ color: yellow;
+ font-family: Yanone Kaffeesatz;
+ font-size: 20px;
+}
+
+.brand {
+ text-align: center;
+ color: yellow;
+ font-family: Yanone Kaffeesatz;
+ font-size: 16px;  
+}
+
+.grid {
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-gap: 10px;
+}
+
+.Recordlogo-img {
+ max-width: 80%;
+ max-height: 100%;
+ display: block;
+ margin-inline: auto;
+ padding-bottom: 10px;
+ box-shadow: 5px 5px;
+}
+
+.aboutme1 {
+ text-align: left;
+}
+
+.godlogo {
+ float: right;
+ width: 220px;
+ height: 220px;
+}
+
+.paragraph1 {
+ text-align: left;   
+}
+
+.fa-square-x-twitter {
+ font-size: 32px;
+}
