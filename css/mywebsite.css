@@ -1,107 +1,186 @@
 main {
- background-image: url("https://images.unsplash.com/photo-1533891244820-1d2dbcf93f56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("https://images.unsplash.com/photo-1533891244820-1d2dbcf93f56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
 }
 
 body {
- background-color: #35155D;
+  background-color: #35155d;
 }
 
 .active {
- background-color: yellow;
- color: #35155D;
- padding: 5px 10px 10px;  
+  background-color: yellow;
+  color: #35155d;
+  padding: 5px 10px 10px;
 }
 
 .abt-btn {
- background-color: yellow;
- color: #35155D;
- padding: 5px 10px 10px;
+  background-color: yellow;
+  color: #35155d;
+  padding: 5px 10px 10px;
 }
 
 .con-btn {
- background-color: yellow;
- color: #35155D;
- padding: 5px 10px 10px;
+  background-color: yellow;
+  color: #35155d;
+  padding: 5px 10px 10px;
 }
 
 .onl-btn {
- background-color: yellow;
- color: #35155D;
- padding: 5px 10px 10px;
+  background-color: yellow;
+  color: #35155d;
+  padding: 5px 10px 10px;
 }
 
 h1 {
- text-align: center;
- color: yellow;
- font-family: Yanone Kaffeesatz;
- font-size: 40px;
+  text-align: center;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
+  font-size: 40px;
 }
 
 h2 {
- text-align: center;
- color: yellow;
- font-family: Yanone Kaffeesatz;
- font-size: 20px;
+  text-align: center;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
+  font-size: 20px;
 }
 
 .dig1 {
- color: lavender;
+  color: lavender;
 }
 
 .dig2 {
- color: lavenderblush;
+  color: lavenderblush;
 }
 
-
 img {
- display: block;
- margin-left: auto;
- margin-right: auto;   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
- text-align: center;    
- color: yellow;
- font-family: Yanone Kaffeesatz;
- font-size: 20px;
+  text-align: center;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
+  font-size: 20px;
 }
 
 .brand {
- text-align: center;
- color: #35155D;
- font-family: Yanone Kaffeesatz;
- font-size: 16px;  
+  text-align: center;
+  color: #35155d;
+  font-family: Yanone Kaffeesatz;
+  font-size: 16px;
 }
 
 .grid {
- display: grid;
- grid-template-columns: auto auto auto auto;
- grid-gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
 }
 
 .Recordlogo-img {
- max-width: 80%;
- max-height: 100%;
- display: block;
- margin-inline: auto;
- padding-bottom: 10px;
- box-shadow: 5px 5px;
+  max-width: 80%;
+  max-height: 100%;
+  display: block;
+  margin-inline: auto;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px;
 }
 
+.subtitle{
+    color: yellow;
+}
+
+li{
+    color: yellow;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  transition: all 0.4s ease-in;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  min-height: calc(100vh - 4.25rem);
+  place-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+#slider {
+  position: relative;
+  width: 500px;
+  height: 400px;
+}
+
+#slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+#slider img.active {
+  opacity: 1;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #717171;
+    color: #f1f1f1;
+    font-size: 32px;
+    font-stretch: condensed;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+  }
+
+  button:hover {
+    background-color: yellow;
+  }
+  
+  button#prev {
+    left: -35px;
+    padding: 7px 17px 7px 15px;
+  }
+  
+  button#next {
+    right: -35px;
+    padding: 7px 15px 7px 17px;
+  }
+
+
 .aboutme1 {
- text-align: left;
+  text-align: left;
 }
 
 .godlogo {
- float: right;
- width: 220px;
- height: 220px;
+  float: right;
+  width: 220px;
+  height: 220px;
 }
 
 .paragraph1 {
- text-align: left;   
+  text-align: left;
 }
 
 .fa-square-x-twitter {
- font-size: 32px;
+  font-size: 32px;
 }
