@@ -10,24 +10,28 @@ body {
   background-color: yellow;
   color: #35155d;
   padding: 5px 10px 10px;
+  border-radius: 10px;
 }
 
 .abt-btn {
   background-color: yellow;
   color: #35155d;
   padding: 5px 10px 10px;
+  border-radius: 10px;
 }
 
 .con-btn {
   background-color: yellow;
   color: #35155d;
   padding: 5px 10px 10px;
+  border-radius: 10px;
 }
 
 .onl-btn {
   background-color: yellow;
   color: #35155d;
   padding: 5px 10px 10px;
+  border-radius: 10px;
 }
 
 h1 {
@@ -84,7 +88,6 @@ p {
   display: block;
   margin-inline: auto;
   padding-bottom: 10px;
-  box-shadow: 5px 5px;
 }
 
 .subtitle{
@@ -124,6 +127,8 @@ body {
 
 #slider img {
   position: absolute;
+  display: block;
+  margin-inline:0px auto;
   top: 0;
   left: 0;
   width: 100%;
