@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
 }
 
-.onl-btn {
+.art-btn {
   background-color: yellow;
   color: #35155d;
   padding: 5px 10px 10px;
@@ -62,7 +62,7 @@ img {
   margin-right: auto;
 }
 
-p {
+.text1 {
   text-align: center;
   color: yellow;
   font-family: Yanone Kaffeesatz;
@@ -90,88 +90,6 @@ p {
   padding-bottom: 10px;
 }
 
-.subtitle{
-    color: yellow;
-}
-
-li{
-    color: yellow;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  transition: all 0.4s ease-in;
-}
-
-.container {
-  display: grid;
-  width: 100%;
-  min-height: calc(100vh - 4.25rem);
-  place-content: center;
-  gap: 1rem;
-  text-align: center;
-}
-
-#slider {
-  position: relative;
-  width: 500px;
-  height: 400px;
-}
-
-#slider img {
-  position: absolute;
-  display: block;
-  margin-inline:0px auto;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all 1s ease-in-out;
-}
-
-#slider img.active {
-  opacity: 1;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 3px solid #fff;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    background-color: #717171;
-    color: #f1f1f1;
-    font-size: 32px;
-    font-stretch: condensed;
-    cursor: pointer;
-    transition: all 200ms ease-in-out;
-  }
-
-  button:hover {
-    background-color: yellow;
-  }
-  
-  button#prev {
-    left: -35px;
-    padding: 7px 17px 7px 15px;
-  }
-  
-  button#next {
-    right: -35px;
-    padding: 7px 15px 7px 17px;
-  }
-
-
 .aboutme1 {
   text-align: left;
 }
@@ -189,3 +107,12 @@ button {
 .fa-square-x-twitter {
   font-size: 32px;
 }
+
+.card-text {
+  color: #35155D;
+}
+
+.container2 {
+  color: yellow;
+}
+

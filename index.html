@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Da Hip-Hop Vinyl Spot</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 <link rel="icon" type="image/icon" href="https://pbs.twimg.com/profile_images/1703212628053504000/EeHvSzQ2_400x400.jpg">
 <link rel="stylesheet" type="text/css" href="css/mywebsite.css">
 <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
@@ -21,20 +22,21 @@
       <a class="active" href="index.html">Home</a>
       <a target="_blank" class="abt-btn" href="about-me.html">About Me</a>
       <a target="_blank" class="con-btn" href="contact-me.html">Contact Me</a>
-      <a target="_blank" class="onl-btn" href="products/products.html"
-        >Products</a
+      <a target="_blank" class="art-btn" href="article.html"
+        >Article</a
       >
     </div>
     <br>
     <img src="./media/Crate_diggin_1.jpg" alt="Vinyl Image 1" width="600" height="400">
     <h1>Welcome to Da Hip-Hop Vinyl Spot, the one stop spot to find hip-hop records online.</h1>
-<p>This is a site dedicated to die hard and casual record collectors who enjoy listening to their Hip-Hop and other music on vinyl.</p>
+<p class="text1">This is a site dedicated to die hard and casual record collectors who enjoy listening to their Hip-Hop and other music on vinyl.</p>
 <h2>The Vinyl Stop Shop provides<em class="dig1">links</em>to different<em class="dig2">websites</em>where listeners can shop online for records.</h2>
 <img src="./media/Old_Schoolhiphop_2.jpg" alt="Vinyl Image 2" width="600" height="400">
-<br>-b
+<br>
+<br>
 
 <h1>Links To Online Record Stores</h1>
-<div><p>Right down below are eight websites that sell hip-hop records online.
+<div><p class="text1">Right down below are eight websites that sell hip-hop records online.
    Click on any link of your choice that's under each image logo displayed below here.</p>
 </div> 
 <main class="grid">
@@ -78,6 +80,89 @@
    <a href="https://www.discogs.com/sell/list?format=Vinyl&genre=Hip+Hop"><img class="Recordlogo-img" src="./media/discogs_400.jpg" alt="Picture of record store logo 8">
    </a>
 </div>
-</main>  
-</body>
+</main>
+<br>
+  <br>
+    <div class="container">
+      <h2 class="mt-4 mb-4">Featured Articles</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="./media/Sardines1_2.jpg" class="card-img-top">
+            <div class="card-body d-grid gap-2">
+              <h5 class="mt-4 mb-4 card-title">Planet Asia & Apollo Brown - Sardines</h5>
+              <p class="card-text">For the second time, Fresno's finest Planet Asia team up with Detroit native Apollo Brown again with new album Sardines, arguably Planet Asia's best work.</p>
+              <a href="article.html" type="button" class="art-btn" href="article.html">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="./media/SpeshialMachinery_2.jpg" class="card-img-top">
+            <div class="card-body d-grid gap-2">
+              <h5 class="mt-4 mb-4 card-title">Conway The Machine & 38 Spesh - Speshial Machinery</h5>
+              <p class="card-text">Buffalo native Conway The Machine link up with Rochester native 38 Spesh and quietly dropped Speshial Machinery bringing the hardcore street vibe to their music.</p>
+              <a href="article.html" type="button" class="art-btn" href="article.html">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="./media/BadNews3.jpg" class="card-img-top">
+            <div class="card-body d-grid gap-2">
+              <h5 class="mt-4 mb-4 card-title">Real Bad Man & Blu - Bad News</h5>
+              <p class="card-text">South Central Los Angeles emcee Blu team up with producer Real Bad Man to release one of the best albums this month in Bad News. Might be one of the best albums this year.</p>
+              <a href="article.html" type="button" class="art-btn" href="article.html">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>  
+
+  <footer class="container2">
+    <div>
+      <p>&copy; 2022 SunJay. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- add modal markup here -->
+  <div class="modal" tabindex="-1" id="exampleModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-floating mb-3">
+            <input
+                   type="text"
+                   class="form-control"
+                   id="floatingInput"
+                   placeholder="Full name"
+                   >
+            <label for="floatingInput">Full name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+                   type="email"
+                   class="form-control"
+                   id="floatingInput"
+                   placeholder="name@example.com"
+                   >
+            <label for="floatingInput">Email address</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button data-bs-dismiss="modal" type="button" class="btn btn-primary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </html>
