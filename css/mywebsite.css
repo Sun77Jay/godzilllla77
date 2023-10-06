@@ -6,30 +6,51 @@ body {
   background-color: #35155d;
 }
 
-.active {
+.nav-menu {
   background-color: yellow;
-  color: #35155d;
+  padding: 15px;
+}
+
+.mybrand {
+  color: #35155D;
+  font-family: Permanent Marker;
+  font-size: 40px;
+}
+
+.webbrand {
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+.active {
+  background-color:  #35155d;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
   border-radius: 10px;
 }
 
 .abt-btn {
-  background-color: yellow;
-  color: #35155d;
+  background-color: #35155D;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
   border-radius: 10px;
 }
 
 .con-btn {
-  background-color: yellow;
-  color: #35155d;
+  background-color: #35155D;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
   border-radius: 10px;
 }
 
 .art-btn {
-  background-color: yellow;
-  color: #35155d;
+  background-color: #35155D;
+  color: yellow;
+  font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
   border-radius: 10px;
 }
@@ -89,21 +110,6 @@ img {
   margin-inline: auto;
   padding-bottom: 10px;
 }
-
-.aboutme1 {
-  text-align: left;
-}
-
-.godlogo {
-  float: right;
-  width: 220px;
-  height: 220px;
-}
-
-.paragraph1 {
-  text-align: left;
-}
-
 
 
 .card-text {

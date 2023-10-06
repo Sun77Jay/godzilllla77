@@ -101,3 +101,10 @@
     display: none;
   }
 
+  a {
+  background-color: yellow;
+  color: #35155d;
+  font-family: "Yanone Kaffeesatz";
+  padding: 5px 10px 10px;
+  border-radius: 10px;
+  }

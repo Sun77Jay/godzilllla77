@@ -1,0 +1,43 @@
+body {
+  background-color: #35155d;
+}
+
+.conpage {
+  color: yellow;
+  font-family: "Yanone Kaffeesatz";
+}
+
+.paramail {
+  font-family: "Yanone Kaffeesatz";
+  font-size: medium;  
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+.paragraph2 {
+  color: yellow;
+  font-family: "Yanone Kaffeesatz";
+}
+
+.fa-square-x-twitter {
+  font-size: 32px;
+  color: yellow;
+}
+
+.sub-btn {
+  background-color: yellow;
+  color: #35155d;
+  font-family: "Yanone Kaffeesatz";
+  padding: 5px 10px 10px;
+  border-radius: 10px;
+}
+
+.hom-btn {
+  background-color: yellow;
+  color: #35155d;
+  font-family: "Yanone Kaffeesatz";
+  padding: 5px 10px 10px;
+  border-radius: 10px;
+}
