@@ -6,13 +6,20 @@ body {
   background-color: #35155d;
 }
 
+@media screen and (max-
+width: 600px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
+
 .nav-menu {
   background-color: yellow;
   padding: 15px;
 }
 
 .mybrand {
-  color: #35155D;
+  color: #35155d;
   font-family: Permanent Marker;
   font-size: 40px;
 }
@@ -24,7 +31,7 @@ body {
 }
 
 .active {
-  background-color:  #35155d;
+  background-color: #35155d;
   color: yellow;
   font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
@@ -32,7 +39,7 @@ body {
 }
 
 .abt-btn {
-  background-color: #35155D;
+  background-color: #35155d;
   color: yellow;
   font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
@@ -40,7 +47,7 @@ body {
 }
 
 .con-btn {
-  background-color: #35155D;
+  background-color: #35155d;
   color: yellow;
   font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
@@ -48,7 +55,7 @@ body {
 }
 
 .art-btn {
-  background-color: #35155D;
+  background-color: #35155d;
   color: yellow;
   font-family: Yanone Kaffeesatz;
   padding: 5px 10px 10px;
@@ -83,6 +90,16 @@ img {
   margin-right: auto;
 }
 
+.retro1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.retro2 {
+  max-width: 100%;
+  height: auto;
+}
+
 .text1 {
   text-align: center;
   color: yellow;
@@ -113,10 +130,17 @@ img {
 
 
 .card-text {
-  color: #35155D;
+  color: #35155d;
 }
 
 .container2 {
   color: yellow;
 }
+
+.copyright {
+  font-family: Permanent Marker;
+}
+
+
+
 
